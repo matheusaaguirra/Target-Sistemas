@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Sistemas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <h1>Target Sistemas</h1>
+    <sectio class="container">
+        <!--Fibonacci -->
+        <div class="card">
+            <h2>Verificador de Sequência de Fibonacci</h2>
+            <p>Digite um número para verificar se ele pertence à sequência de Fibonacci:</p>
+            <input type="number" id="inputFibonacci" placeholder="Insira um número">
+            <button onclick="verificarFibonacci()">Verificar</button>
+            <p id="resultadoFibonacci"></p>
+        </div>
+
+        <!-- Faturamento Diário -->
+        <div class="card">
+            <h2>Faturamento Diário</h2>
+            <p>Menor, maior valor de faturamento e dias acima da média mensal.</p>
+            <button onclick="calcularFaturamento()">Calcular Faturamento</button>
+            <p id="resultadoFaturamento"></p>
+        </div>
+
+        <!-- Percentual por Estado -->
+        <div class="card">
+            <h2>Percentual de Faturamento por Estado</h2>
+            <button onclick="calcularPercentual()">Calcular Percentuais</button>
+            <p id="resultadoPercentual"></p>
+        </div>
+
+        <!-- Inversor de String -->
+        <div class="card">
+            <h2>Inversor de String</h2>
+            <p>Digite uma string para inverter seus caracteres:</p>
+            <input type="text" id="inputString" placeholder="Insira uma string">
+            <button onclick="inverterString()">Inverter</button>
+            <p id="resultadoString"></p>
+        </div>
+        </section>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

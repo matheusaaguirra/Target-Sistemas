@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+.container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.788);
+    min-height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    padding: 15px;
+    margin: 10px 0;
+    width: 100%;
+    /* Deixa o input ocupar todo o espaço disponível */
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #068123;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #042e0e;
+}
+
+p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 16px;
+}
