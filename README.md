@@ -40,5 +40,5 @@ O projeto foi desenvolvido utilizando tecnologias web modernas e está hospedado
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/target-sistemas.git
+   git clone https://github.com/matheusaaguirra/target-sistemas.git
 
