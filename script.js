@@ -27,7 +27,7 @@ function verificarFibonacci() {
     }
 }
 
-// Faturamento diário (dados fictícios)
+// Faturamento diário 
 const faturamento = [
     { "dia": 1, "valor": 1000.0 },
     { "dia": 2, "valor": 2000.0 },

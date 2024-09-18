@@ -8,6 +8,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: rgb(233, 252, 233);
 }
 
 h1 {
@@ -20,12 +21,12 @@ h1 {
 
 
 .container {
-    margin-top: 10px;
+    margin:  50px 7px 30px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .card {
